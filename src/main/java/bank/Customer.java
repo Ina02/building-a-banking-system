@@ -10,7 +10,7 @@ public class Customer {
   private String password;
   private int accountId;
 
-  private Customer(int id, String name, String username, String password, int accountId) {
+  Customer(int id, String name, String username, String password, int accountId) {
     setId(id);
     setName(name);
     setUsername(username);
@@ -18,7 +18,10 @@ public class Customer {
     setAccountId(accountId);
   }
 
-  public int getId() {
+  public Customer(int int1, String string, String string2, String string3, String string4) {
+	}
+
+	public int getId() {
     return this.id;
   }
 
